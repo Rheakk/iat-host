@@ -1,8 +1,9 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.7.3/IAT/qualtrics/quiat9.js'], 
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.7.3/IAT/qualtrics/quiat9.js'],
 function(APIConstructor, iatExtension){
   var API = new APIConstructor();
 
   return iatExtension({
+    // Categories (at least 6 each)
     category1 : {
       name : 'Male words',
       title : { media : {word : 'Male words'}, css : {color:'#31940F','font-size':'2em'}, height : 4 },
@@ -11,7 +12,8 @@ function(APIConstructor, iatExtension){
         {word : 'Paul'},
         {word : 'Daniel'},
         {word : 'John'},
-        {word : 'Jeffrey'}
+        {word : 'Jeffrey'},
+        {word : 'Adam'}           // added to reach 6
       ],
       stimulusCss : {color:'#31940F','font-size':'1.8em'}
     },
@@ -24,11 +26,13 @@ function(APIConstructor, iatExtension){
         {word : 'Michelle'},
         {word : 'Emily'},
         {word : 'Julia'},
-        {word : 'Anna'}
+        {word : 'Anna'},
+        {word : 'Lauren'}         // added to reach 6
       ],
       stimulusCss : {color:'#31940F','font-size':'1.8em'}
     },
 
+    // Attributes (aim for ~8 each)
     attribute1 : {
       name : 'Career words',
       title : { media : {word : 'Career words'}, css : {color:'#31940F','font-size':'2em'}, height : 4 },
@@ -38,7 +42,9 @@ function(APIConstructor, iatExtension){
         {word: 'Office'},
         {word: 'Professional'},
         {word: 'Management'},
-        {word: 'Business'}
+        {word: 'Business'},
+        {word: 'Career'},         // added
+        {word: 'Engineer'}        // added
       ],
       stimulusCss : {color:'#31940F','font-size':'1.8em'}
     },
@@ -54,7 +60,7 @@ function(APIConstructor, iatExtension){
         {word: 'Family'},
         {word: 'Home'},
         {word: 'Children'},
-        {word: 'Scorn'}
+        {word: 'Siblings'}        // replaced 'Scorn'
       ],
       stimulusCss : {color:'#31940F','font-size':'1.8em'}
     }
