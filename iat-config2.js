@@ -10,8 +10,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.7.3/IAT/qua
         {word : 'Paul'},
         {word : 'Daniel'},
         {word : 'John'},
-        {word : 'Jeffrey'},
-        {word : 'Adam'}           // added to reach 6
+        {word : 'Jeffrey'}
       ],
       stimulusCss : {color:'#31940F','font-size':'1.8em'}
     },
@@ -24,8 +23,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.7.3/IAT/qua
         {word : 'Michelle'},
         {word : 'Emily'},
         {word : 'Julia'},
-        {word : 'Anna'},
-        {word : 'Lauren'}         // added to reach 6
+        {word : 'Anna'}
       ],
       stimulusCss : {color:'#31940F','font-size':'1.8em'}
     },
@@ -35,14 +33,13 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.7.3/IAT/qua
       name : 'Career words',
       title : { media : {word : 'Career words'}, css : {color:'#31940F','font-size':'2em'}, height : 4 },
       stimulusMedia : [
+        {word: 'Career'},
         {word: 'Corporation'},
         {word: 'Salary'},
         {word: 'Office'},
         {word: 'Professional'},
         {word: 'Management'},
-        {word: 'Business'},
-        {word: 'Career'},         // added
-        {word: 'Engineer'}        // added
+        {word: 'Business'}
       ],
       stimulusCss : {color:'#31940F','font-size':'1.8em'}
     },
@@ -57,8 +54,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.7.3/IAT/qua
         {word: 'Relatives'},
         {word: 'Family'},
         {word: 'Home'},
-        {word: 'Children'},
-        {word: 'Siblings'}        // replaced 'Scorn'
+        {word: 'Children'}
       ],
       stimulusCss : {color:'#31940F','font-size':'1.8em'}
     }
