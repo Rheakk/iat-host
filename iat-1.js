@@ -10,12 +10,12 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
         height : 4
       },
       stimulusMedia : [
-        {image : 'asian_face_1.jpg'},
-        {image : 'asian_face_2.jpg'},
-        {image : 'asian_face_3.jpg'},
-        {image : 'asian_face_4.jpg'},
-        {image : 'asian_face_5.jpg'},
-        {image : 'asian_face_6.jpg'}
+        {image : 'asian_face_1.png'},
+        {image : 'asian_face_2.png'},
+        {image : 'asian_face_3.png'},
+        {image : 'asian_face_4.png'},
+        {image : 'asian_face_5.png'},
+        {image : 'asian_face_6.png'}
       ],
       stimulusCss : {color:'#31940F','font-size':'1.8em'}
     },
@@ -28,12 +28,12 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
         height : 4
       },
       stimulusMedia : [
-        {image : 'ea_face_1.jpg'},
-        {image : 'ea_face_2.jpg'},
-        {image : 'ea_face_3.jpg'},
-        {image : 'ea_face_4.jpg'},
-        {image : 'ea_face_5.jpg'},
-        {image : 'ea_face_6.jpg'}
+        {image : 'ea_face_1.png'},
+        {image : 'ea_face_2.png'},
+        {image : 'ea_face_3.png'},
+        {image : 'ea_face_4.png'},
+        {image : 'ea_face_5.png'},
+        {image : 'ea_face_6.png'}
       ],
       stimulusCss : {color:'#31940F','font-size':'1.8em'}
     },
