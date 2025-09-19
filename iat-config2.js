@@ -30,21 +30,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.7.3/IAT/qua
 
     // Attributes (aim for ~8 each)
     attribute1 : {
-      name : 'Career words',
-      title : { media : {word : 'Career words'}, css : {color:'#31940F','font-size':'2em'}, height : 4 },
-      stimulusMedia : [
-        {word: 'Career'},
-        {word: 'Corporation'},
-        {word: 'Salary'},
-        {word: 'Office'},
-        {word: 'Professional'},
-        {word: 'Management'},
-        {word: 'Business'}
-      ],
-      stimulusCss : {color:'#31940F','font-size':'1.8em'}
-    },
-
-    attribute2 : {
       name : 'Family words',
       title : { media : {word : 'Family words'}, css : {color:'#31940F','font-size':'2em'}, height : 4 },
       stimulusMedia : [
@@ -55,6 +40,21 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.7.3/IAT/qua
         {word: 'Family'},
         {word: 'Home'},
         {word: 'Children'}
+      ],
+      stimulusCss : {color:'#31940F','font-size':'1.8em'}
+    },
+
+    attribute2 : {
+      name : 'Career words',
+      title : { media : {word : 'Career words'}, css : {color:'#31940F','font-size':'2em'}, height : 4 },
+      stimulusMedia : [
+        {word: 'Career'},
+        {word: 'Corporation'},
+        {word: 'Salary'},
+        {word: 'Office'},
+        {word: 'Professional'},
+        {word: 'Management'},
+        {word: 'Business'}
       ],
       stimulusCss : {color:'#31940F','font-size':'1.8em'}
     }
