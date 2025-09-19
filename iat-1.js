@@ -37,7 +37,7 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
-		category3 :	{
+		attribute1 :	{
 			name : 'Good words', //Will appear in the data.
 			title : {
 				media : {word : 'Good words'}, //Name of the category presented in the task.
@@ -57,7 +57,7 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},
-		category4 :	{
+		attribute2 :	{
 			name : 'Bad words', //Will appear in the data.
 			title : {
 				media : {word : 'Bad words'}, //Name of the category presented in the task.
