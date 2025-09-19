@@ -5,7 +5,7 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
     category1 : {
       name : 'Asian people',
       title : {
-        media : {word : 'Asian people'},   // FIXED: word, not image
+        media : {word : 'Asian people'}, 
         css : {color:'#31940F','font-size':'2em'},
         height : 4
       },
@@ -23,7 +23,7 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
     category2 : {
       name : 'White people',
       title : {
-        media : {word : 'White people'},   // FIXED: word, not image
+        media : {word : 'White people'},
         css : {color:'#31940F','font-size':'2em'},
         height : 4
       },
@@ -76,7 +76,7 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
         {word: 'Scorn'}
       ],
       stimulusCss : {color:'#31940F','font-size':'1.8em'}
-    }, // FIXED: comma here
+    },
 
     base_url : {
       image : 'https://Rheakk.github.io/iat-host/images/'
