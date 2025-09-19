@@ -20,11 +20,11 @@ function(APIConstructor, iatExtension){
       name : 'Female words',
       title : { media : {word : 'Female words'}, css : {color:'#31940F','font-size':'2em'}, height : 4 },
       stimulusMedia : [
-        {image : 'Rebecca'},
-        {image : 'Michelle'},
-        {image : 'Emily'},
-        {image : 'Julia'},
-        {image : 'Anna'}
+        {word : 'Rebecca'},
+        {word : 'Michelle'},
+        {word : 'Emily'},
+        {word : 'Julia'},
+        {word : 'Anna'}
       ],
       stimulusCss : {color:'#31940F','font-size':'1.8em'}
     },
