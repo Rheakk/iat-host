@@ -32,22 +32,6 @@ function(APIConstructor, iatExtension){
     },
 
     attribute1 : {
-      name : 'Good words',
-      title : { media : {word : 'Good words'}, css : {color:'#31940F','font-size':'2em'}, height : 4 },
-      stimulusMedia : [
-        {word: 'Celebrate'},
-        {word: 'Magnificent'},
-        {word: 'Fabulous'},
-        {word: 'Beautiful'},
-        {word: 'Lovely'},
-        {word: 'Glad'},
-        {word: 'Spectacular'},
-        {word: 'Terrific'}
-      ],
-      stimulusCss : {color:'#31940F','font-size':'1.8em'}
-    },
-
-    attribute2 : {
       name : 'Bad words',
       title : { media : {word : 'Bad words'}, css : {color:'#31940F','font-size':'2em'}, height : 4 },
       stimulusMedia : [
@@ -59,6 +43,22 @@ function(APIConstructor, iatExtension){
         {word: 'Sadness'},
         {word: 'Awful'},
         {word: 'Scorn'}
+      ],
+      stimulusCss : {color:'#31940F','font-size':'1.8em'}
+    },
+
+    attribute2 : {
+      name : 'Good words',
+      title : { media : {word : 'Good words'}, css : {color:'#31940F','font-size':'2em'}, height : 4 },
+      stimulusMedia : [
+        {word: 'Celebrate'},
+        {word: 'Magnificent'},
+        {word: 'Fabulous'},
+        {word: 'Beautiful'},
+        {word: 'Lovely'},
+        {word: 'Glad'},
+        {word: 'Spectacular'},
+        {word: 'Terrific'} 
       ],
       stimulusCss : {color:'#31940F','font-size':'1.8em'}
     },
