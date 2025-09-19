@@ -64,7 +64,7 @@ function(APIConstructor, iatExtension){
     },
 
     base_url : {
-      image : 'https://rheakk.github.io/iat-host/images/'   // make sure this folder & filenames exist, case-sensitive
+      image : 'https://Rheakk.github.io/iat-host/images/'   // make sure this folder & filenames exist, case-sensitive
     }
   });
 });
